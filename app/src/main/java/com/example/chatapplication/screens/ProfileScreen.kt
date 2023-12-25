@@ -391,13 +391,7 @@ fun ProfileScreen(navController: NavController) {
                     modifier = Modifier
                         .fillMaxSize().align(Alignment.Center)
                 ) {
-                    Image(
-                        painter = rememberAsyncImagePainter(R.drawable.progress, imageLoader),
-                        contentDescription = null,
-                        modifier = Modifier
-                            .height(40.dp)
-                            .align(Alignment.Center)
-                    )
+
                 }
             }
 

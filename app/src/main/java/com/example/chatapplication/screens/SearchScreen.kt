@@ -89,12 +89,7 @@ fun SearchScreen(navController: NavController, focus: Boolean) {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        Image(
-            painter = rememberAsyncImagePainter(R.drawable.progress, imageLoader),
-            contentDescription = null,
-            modifier = Modifier
-                .height(40.dp).align(Alignment.Center)
-        )
+
     }
 }
 
