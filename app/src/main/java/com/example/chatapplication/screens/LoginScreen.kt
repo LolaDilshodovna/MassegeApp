@@ -45,8 +45,8 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 
 
-import com.example.chatapplication.util.Helper
-import com.example.chatapplication.util.SharedHelper
+import com.example.chatapplication.firebase.Helper
+import com.example.chatapplication.firebase.SharedHelper
 import com.example.chatapplication.R
 import com.example.chatapplication.ui.theme.Black20
 import com.example.chatapplication.ui.theme.Primary

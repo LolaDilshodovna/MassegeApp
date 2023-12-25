@@ -1,4 +1,4 @@
-package com.example.chatappclone.util
+package com.example.chatapplication.firebase
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -41,7 +41,6 @@ fun Alert(
                             callback()
                             isDialogOpen.value = false
                         },
-                        shape = RoundedCornerShape(16.dp),
                         colors = ButtonDefaults.buttonColors(confirmButtonColor)
                     ) { Text(text = "Yes") }
                 },
@@ -50,7 +49,6 @@ fun Alert(
                         onClick = {
                             isDialogOpen.value = false
                         },
-                        shape = RoundedCornerShape(16.dp),
                         colors = ButtonDefaults.buttonColors(Gray)
                     ) { Text(text = "Cancel") }
                 },

@@ -46,11 +46,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.example.chatapplication.model.User
-import com.example.chatapplication.navigation.Screen
+import com.example.chatapplication.data.User
+import com.example.chatapplication.Screen
 
 
-import com.example.chatapplication.util.Helper
+import com.example.chatapplication.firebase.Helper
 import com.example.chatapplication.R
 import com.example.chatapplication.ui.theme.Black20
 import com.example.chatapplication.ui.theme.Green

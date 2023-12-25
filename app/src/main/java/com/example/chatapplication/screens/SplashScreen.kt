@@ -26,9 +26,9 @@ import coil.compose.rememberAsyncImagePainter
 import coil.decode.GifDecoder
 import coil.decode.ImageDecoderDecoder
 import kotlinx.coroutines.delay
-import com.example.chatapplication.navigation.Screen
+import com.example.chatapplication.Screen
 
-import com.example.chatapplication.util.SharedHelper
+import com.example.chatapplication.firebase.SharedHelper
 import com.example.chatapplication.R
 import com.example.chatapplication.ui.theme.Primary
 

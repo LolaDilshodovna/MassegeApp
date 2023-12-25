@@ -1,4 +1,4 @@
-package com.example.chatapplication.navigation
+package com.example.chatapplication
 
 sealed class Screen(val route: String) {
     object Splash : Screen("splash")

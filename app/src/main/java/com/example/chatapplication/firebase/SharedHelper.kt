@@ -1,4 +1,4 @@
-package com.example.chatapplication.util
+package com.example.chatapplication.firebase
 
 import android.content.Context
 import android.content.SharedPreferences

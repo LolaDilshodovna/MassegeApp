@@ -1,10 +1,10 @@
-package com.example.chatapplication.util
+package com.example.chatapplication.firebase
 
 import android.content.Context
 import android.util.Log
 import android.widget.Toast
-import com.example.chatapplication.model.Message
-import com.example.chatapplication.model.User
+import com.example.chatapplication.data.Message
+import com.example.chatapplication.data.User
 import com.google.firebase.Firebase
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

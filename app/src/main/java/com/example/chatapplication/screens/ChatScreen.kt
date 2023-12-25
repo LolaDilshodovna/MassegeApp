@@ -55,15 +55,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.example.chatapplication.model.Message
+import com.example.chatapplication.data.Message
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import com.example.chatappclone.util.Alert
-import com.example.chatapplication.util.Helper
-import com.example.chatapplication.util.SharedHelper
+import com.example.chatapplication.firebase.Alert
+import com.example.chatapplication.firebase.Helper
+import com.example.chatapplication.firebase.SharedHelper
 import com.example.chatapplication.R
-import com.example.chatapplication.model.User
+import com.example.chatapplication.data.User
 import com.example.chatapplication.ui.theme.Back1
 import com.example.chatapplication.ui.theme.Back2
 import com.example.chatapplication.ui.theme.Blue

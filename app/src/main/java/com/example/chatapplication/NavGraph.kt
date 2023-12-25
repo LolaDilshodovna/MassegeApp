@@ -1,4 +1,4 @@
-package com.example.chatapplication.navigation
+package com.example.chatapplication
 
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.core.tween

@@ -46,15 +46,14 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import coil.ImageLoader
-import coil.compose.rememberAsyncImagePainter
 import coil.decode.GifDecoder
 import coil.decode.ImageDecoderDecoder
-import com.example.chatapplication.model.Message
-import com.example.chatapplication.model.User
+import com.example.chatapplication.data.Message
+import com.example.chatapplication.data.User
 
-import com.example.chatappclone.util.Alert
-import com.example.chatapplication.util.Helper
-import com.example.chatapplication.util.SharedHelper
+import com.example.chatapplication.firebase.Alert
+import com.example.chatapplication.firebase.Helper
+import com.example.chatapplication.firebase.SharedHelper
 import com.example.chatapplication.R
 import com.example.chatapplication.ui.theme.Black20
 import com.example.chatapplication.ui.theme.Blue
